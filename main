@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Volkov</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+<!--Font style-->
+    <!--Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--Noto Serif-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    
+
+</head>
+
+
+<body>
+<!--Шапка-->
+<header>
+   
+    <!--Лого-->
+    <p1>РВ<p1_2>.</p1_2></p1>
+    
+    <!--Навигация-->
+    <nav> 
+        <a href="#">Проекты</a>
+        <a href="#">Расчеты</a>
+        <a href="#">Контакт</a>
+        <a href="#">Обо мне</a>
+    </nav>
+
+</header>
+
+<!--Основноая информация-->
+
+<!--Заголовок-->
+    <h1>
+        Расчет оснований и фундаментов при использовании многолетнемерзлых грунтов по принципу Ⅰ
+    </h1>
+
+<!--Тескт-->
+    <p>
+        Расчет оснований фундаментов по первой группе предельных состояний (по несущей способности) производится исходя из условия
+    </p>
+
+
+<math display="block">
+    <mi>F</mi>
+        <mo>≤</mo>
+    <mfrac>
+        <msub>
+            <mi>F</mi>
+            <mi>u</mi>   
+        </msub>
+        <msub>
+            <mi>ɣ</mi>
+            <mi>n</mi>
+        </msub>
+    </mfrac>
+</math>
+
+<math display="block">
+    <mi>F</mi> /F
+
+    <mo>=</mo> /=
+
+    <msub>/ɣt
+        <mi>ɣ</mi>
+        <mi>t</mi>
+    </msub>
+
+    <msub>/ɣc
+        <mi>ɣ</mi>
+        <mi>c</mi>
+    </msub>
+
+    <mo>(</mo>
+        <mi>R</mi>
+        <mi>A</mi>
+        <mo>+</mo>
+        <munderover>
+            <mo>∑</mo>
+            <mrow>
+                <mi>i</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+            </mrow>
+            <mi>n</mi>
+        </munderover>
+        <msub>
+            <mi>R</mi>
+            <mrow>
+                <mi>a</mi>
+                <mi>f</mi>
+                <mo>,</mo>
+                <mi>i</mi>
+            </mrow>
+        </msub>
+        <msub>
+            <mi>A</mi>
+            <mrow>
+                <mi>a</mi>
+                <mi>f</mi>
+                <mo>,</mo>
+                <mi>i</mi>
+            </mrow>
+        </msub>
+    <mo>)</mo>
+
+</math>
+
+
+<div class="box">
+    <p>Расчет оснований и фундаментов при использовании многолетнемерзлых грунтов по принципу Ⅰ</p>
+</div>
+
+<input id="textR">
+
+<input type="range" min="0" max="100" step="1" id="range_Input" value="40">
+<input type="naumber" min="0" max="100" step="1" id="value_Input" value="40">
+
+<script src="rv.js"></script>
+
+<table>
+
+ <tr height=80 style='height:60.0pt;mso-xlrowspan:4'>
+  <td height=80 colspan=21 style='height:60.0pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl67>73</td>
+  <td class=xl67 style='border-left:none'>46</td>
+  <td class=xl67 style='border-left:none'>70</td>
+  <td class=xl67 style='border-left:none'>1</td>
+  <td class=xl67 style='border-left:none'>76</td>
+  <td class=xl67 style='border-left:none'>67</td>
+  <td class=xl67 style='border-left:none'>30</td>
+  <td class=xl67 style='border-left:none'>37</td>
+  <td class=xl67 style='border-left:none'>50</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=50 colspan=102 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>97</td>
+  <td class=xl66 style='border-top:none;border-left:none'>16</td>
+  <td class=xl66 style='border-top:none;border-left:none'>86</td>
+  <td class=xl66 style='border-top:none;border-left:none'>89</td>
+  <td class=xl66 style='border-top:none;border-left:none'>12</td>
+  <td class=xl66 style='border-top:none;border-left:none'>42</td>
+  <td class=xl66 style='border-top:none;border-left:none'>26</td>
+  <td class=xl66 style='border-top:none;border-left:none'>54</td>
+  <td class=xl66 style='border-top:none;border-left:none'>1</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>81</td>
+  <td class=xl66 style='border-top:none;border-left:none'>100</td>
+  <td class=xl66 style='border-top:none;border-left:none'>43</td>
+  <td class=xl66 style='border-top:none;border-left:none'>33</td>
+  <td class=xl66 style='border-top:none;border-left:none'>10</td>
+  <td class=xl66 style='border-top:none;border-left:none'>7</td>
+  <td class=xl66 style='border-top:none;border-left:none'>63</td>
+  <td class=xl66 style='border-top:none;border-left:none'>55</td>
+  <td class=xl66 style='border-top:none;border-left:none'>98</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=102 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>62</td>
+  <td class=xl66 style='border-top:none;border-left:none'>43</td>
+  <td class=xl66 style='border-top:none;border-left:none'>63</td>
+  <td class=xl66 style='border-top:none;border-left:none'>93</td>
+  <td class=xl66 style='border-top:none;border-left:none'>7</td>
+  <td class=xl66 style='border-top:none;border-left:none'>73</td>
+  <td class=xl66 style='border-top:none;border-left:none'>70</td>
+  <td class=xl66 style='border-top:none;border-left:none'>66</td>
+  <td class=xl66 style='border-top:none;border-left:none'>19</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>100</td>
+  <td class=xl66 style='border-top:none;border-left:none'>74</td>
+  <td class=xl66 style='border-top:none;border-left:none'>17</td>
+  <td class=xl66 style='border-top:none;border-left:none'>13</td>
+  <td class=xl66 style='border-top:none;border-left:none'>72</td>
+  <td class=xl66 style='border-top:none;border-left:none'>15</td>
+  <td class=xl66 style='border-top:none;border-left:none'>84</td>
+  <td class=xl66 style='border-top:none;border-left:none'>43</td>
+  <td class=xl66 style='border-top:none;border-left:none'>15</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>66</td>
+  <td class=xl66 style='border-top:none;border-left:none'>80</td>
+  <td class=xl66 style='border-top:none;border-left:none'>82</td>
+  <td class=xl66 style='border-top:none;border-left:none'>39</td>
+  <td class=xl66 style='border-top:none;border-left:none'>24</td>
+  <td class=xl66 style='border-top:none;border-left:none'>1</td>
+  <td class=xl66 style='border-top:none;border-left:none'>40</td>
+  <td class=xl66 style='border-top:none;border-left:none'>99</td>
+  <td class=xl66 style='border-top:none;border-left:none'>75</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>7</td>
+  <td class=xl66 style='border-top:none;border-left:none'>88</td>
+  <td class=xl66 style='border-top:none;border-left:none'>14</td>
+  <td class=xl66 style='border-top:none;border-left:none'>77</td>
+  <td class=xl66 style='border-top:none;border-left:none'>72</td>
+  <td class=xl66 style='border-top:none;border-left:none'>14</td>
+  <td class=xl66 style='border-top:none;border-left:none'>77</td>
+  <td class=xl66 style='border-top:none;border-left:none'>42</td>
+  <td class=xl66 style='border-top:none;border-left:none'>70</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>35</td>
+  <td class=xl66 style='border-top:none;border-left:none'>96</td>
+  <td class=xl66 style='border-top:none;border-left:none'>92</td>
+  <td class=xl66 style='border-top:none;border-left:none'>12</td>
+  <td class=xl66 style='border-top:none;border-left:none'>69</td>
+  <td class=xl66 style='border-top:none;border-left:none'>68</td>
+  <td class=xl66 style='border-top:none;border-left:none'>20</td>
+  <td class=xl66 style='border-top:none;border-left:none'>100</td>
+  <td class=xl66 style='border-top:none;border-left:none'>8</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>63</td>
+  <td class=xl66 style='border-top:none;border-left:none'>12</td>
+  <td class=xl66 style='border-top:none;border-left:none'>24</td>
+  <td class=xl66 style='border-top:none;border-left:none'>61</td>
+  <td class=xl66 style='border-top:none;border-left:none'>92</td>
+  <td class=xl66 style='border-top:none;border-left:none'>94</td>
+  <td class=xl66 style='border-top:none;border-left:none'>52</td>
+  <td class=xl66 style='border-top:none;border-left:none'>68</td>
+  <td class=xl66 style='border-top:none;border-left:none'>77</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>72</td>
+  <td class=xl66 style='border-top:none;border-left:none'>94</td>
+  <td class=xl66 style='border-top:none;border-left:none'>46</td>
+  <td class=xl66 style='border-top:none;border-left:none'>63</td>
+  <td class=xl66 style='border-top:none;border-left:none'>35</td>
+  <td class=xl66 style='border-top:none;border-left:none'>17</td>
+  <td class=xl66 style='border-top:none;border-left:none'>70</td>
+  <td class=xl66 style='border-top:none;border-left:none'>91</td>
+  <td class=xl66 style='border-top:none;border-left:none'>7</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>20</td>
+  <td class=xl66 style='border-top:none;border-left:none'>76</td>
+  <td class=xl66 style='border-top:none;border-left:none'>16</td>
+  <td class=xl66 style='border-top:none;border-left:none'>17</td>
+  <td class=xl66 style='border-top:none;border-left:none'>85</td>
+  <td class=xl66 style='border-top:none;border-left:none'>37</td>
+  <td class=xl66 style='border-top:none;border-left:none'>30</td>
+  <td class=xl66 style='border-top:none;border-left:none'>48</td>
+  <td class=xl66 style='border-top:none;border-left:none'>61</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>75</td>
+  <td class=xl66 style='border-top:none;border-left:none'>23</td>
+  <td class=xl66 style='border-top:none;border-left:none'>54</td>
+  <td class=xl66 style='border-top:none;border-left:none'>2</td>
+  <td class=xl66 style='border-top:none;border-left:none'>81</td>
+  <td class=xl66 style='border-top:none;border-left:none'>7</td>
+  <td class=xl66 style='border-top:none;border-left:none'>18</td>
+  <td class=xl66 style='border-top:none;border-left:none'>2</td>
+  <td class=xl66 style='border-top:none;border-left:none'>60</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>54</td>
+  <td class=xl66 style='border-top:none;border-left:none'>63</td>
+  <td class=xl66 style='border-top:none;border-left:none'>37</td>
+  <td class=xl66 style='border-top:none;border-left:none'>24</td>
+  <td class=xl66 style='border-top:none;border-left:none'>9</td>
+  <td class=xl66 style='border-top:none;border-left:none'>14</td>
+  <td class=xl66 style='border-top:none;border-left:none'>44</td>
+  <td class=xl66 style='border-top:none;border-left:none'>63</td>
+  <td class=xl66 style='border-top:none;border-left:none'>46</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>70</td>
+  <td class=xl66 style='border-top:none;border-left:none'>52</td>
+  <td class=xl66 style='border-top:none;border-left:none'>98</td>
+  <td class=xl66 style='border-top:none;border-left:none'>18</td>
+  <td class=xl66 style='border-top:none;border-left:none'>24</td>
+  <td class=xl66 style='border-top:none;border-left:none'>67</td>
+  <td class=xl66 style='border-top:none;border-left:none'>69</td>
+  <td class=xl66 style='border-top:none;border-left:none'>18</td>
+  <td class=xl66 style='border-top:none;border-left:none'>68</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 colspan=12 style='height:15.0pt;mso-ignore:colspan'></td>
+  <td class=xl65 style='border-top:none'>50</td>
+  <td class=xl66 style='border-top:none;border-left:none'>65</td>
+  <td class=xl66 style='border-top:none;border-left:none'>81</td>
+  <td class=xl66 style='border-top:none;border-left:none'>15</td>
+  <td class=xl66 style='border-top:none;border-left:none'>73</td>
+  <td class=xl66 style='border-top:none;border-left:none'>51</td>
+  <td class=xl66 style='border-top:none;border-left:none'>27</td>
+  <td class=xl66 style='border-top:none;border-left:none'>32</td>
+  <td class=xl66 style='border-top:none;border-left:none'>28</td>
+
+<!--Подвал-->
+<footer>
+    <address>
+        Волков Роман
+    </address>
+</footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+h1 {
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 30px;
+        color: black;
+}
+
+p1 {
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 50px;
+        color: black;
+}
+
+p1_2 {
+color: darkred;
+}
+
+p {
+     font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 350;
+        font-style: normal;
+        font-size: 17px;
+        text-indent: 25px;
+        text-align:justify;
+}
+
+
+
+
+body {
+    padding: 50px 10%;
+    color: #babecc;
+}
+
+math {
+    padding: 10px 0px;
+}
+
+address {
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    justify-content: end;
+}
+
+a {
+    color: rgb(0, 75, 214);
+    padding: 5px;
+}
+
+#range_Input {
+    width: 100%;
+}

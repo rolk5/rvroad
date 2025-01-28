@@ -18,7 +18,16 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    
+
+
+<!--map-->
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="./map_html_ex1/resources/ol.css">
+    <link rel="stylesheet" href="map_html_ex1/resources/fontawesome-all.min.css">
+    <link rel="stylesheet" href="./map_html_ex1/resources/ol-layerswitcher.css">
+    <link rel="stylesheet" href="./map_html_ex1/resources/qgis2web.css">
 
 </head>
 
@@ -44,91 +53,34 @@
 
 <!--Заголовок-->
     <h1>
-        Расчет оснований и фундаментов при использовании многолетнемерзлых грунтов по принципу Ⅰ
+        Дорожно-климатическая зона
     </h1>
 
 <!--Тескт-->
     <p>
-        Расчет оснований фундаментов по первой группе предельных состояний (по несущей способности) производится исходя из условия
+        это часть территории страны, для которой характерны однородные особенности постройки автомобильных дорог, примерно одинаковые климатические условия, средняя однородность водной поверхности и приблизительно схожие показатели промерзания почвы и глубины залегания подземных вод.
     </p>
+<p> Ниже прилагаю карту:</p>
 
 
-<math display="block">
-    <mi>F</mi>
-        <mo>≤</mo>
-    <mfrac>
-        <msub>
-            <mi>F</mi>
-            <mi>u</mi>   
-        </msub>
-        <msub>
-            <mi>ɣ</mi>
-            <mi>n</mi>
-        </msub>
-    </mfrac>
-</math>
-
-<math display="block">
-    <mi>F</mi> /F
-
-    <mo>=</mo> /=
-
-    <msub>/ɣt
-        <mi>ɣ</mi>
-        <mi>t</mi>
-    </msub>
-
-    <msub>/ɣc
-        <mi>ɣ</mi>
-        <mi>c</mi>
-    </msub>
-
-    <mo>(</mo>
-        <mi>R</mi>
-        <mi>A</mi>
-        <mo>+</mo>
-        <munderover>
-            <mo>∑</mo>
-            <mrow>
-                <mi>i</mi>
-                <mo>=</mo>
-                <mn>1</mn>
-            </mrow>
-            <mi>n</mi>
-        </munderover>
-        <msub>
-            <mi>R</mi>
-            <mrow>
-                <mi>a</mi>
-                <mi>f</mi>
-                <mo>,</mo>
-                <mi>i</mi>
-            </mrow>
-        </msub>
-        <msub>
-            <mi>A</mi>
-            <mrow>
-                <mi>a</mi>
-                <mi>f</mi>
-                <mo>,</mo>
-                <mi>i</mi>
-            </mrow>
-        </msub>
-    <mo>)</mo>
-
-</math>
-
-
-<div class="box">
-    <p>Расчет оснований и фундаментов при использовании многолетнемерзлых грунтов по принципу Ⅰ</p>
+<div id="map">
+    <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content"></div>
+    </div>
 </div>
+<script src="/map_html_ex1/resources/qgis2web_expressions.js"></script>
+<script src="./map_html_ex1/resources/functions.js"></script>
+<script src="./map_html_ex1/resources/ol.js"></script>
+<script src="./map_html_ex1/resources/ol-layerswitcher.js"></script>
+<script src="map_html_ex1/layers/border_dkz_1.js"></script>
+<script src="map_html_ex1/styles/border_dkz_1_style.js"></script>
+<script src="./map_html_ex1/layers/layers.js" type="text/javascript"></script> 
+<script src="./map_html_ex1/resources/Autolinker.min.js"></script>
+<script src="./map_html_ex1/resources/qgis2web.js"></script>
 
-<input id="textR">
 
-<input type="range" min="0" max="100" step="1" id="range_Input" value="40">
-<input type="naumber" min="0" max="100" step="1" id="value_Input" value="40">
 
-<script src="rv.js"></script>
 <!--Подвал-->
 <footer>
     <address>

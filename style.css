@@ -36,7 +36,6 @@ p {
 body {
     padding: 50px 10%;
     color: black;
-    border: 5px solid black;
 }
 
 math {
@@ -48,7 +47,6 @@ address {
     font-family: "Montserrat",sans-serif;
     font-style: normal;
     text-align: center;
-    border: 5px solid rgb(148, 83, 83);
     margin: 50px 0px 0px 0px;
 }
 

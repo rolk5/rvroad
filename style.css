@@ -21,7 +21,7 @@ color: darkred;
 }
 
 p {
-     font-family: "Noto Serif", serif;
+     font-family: "Arial", serif;
         font-optical-sizing: auto;
         font-weight: 350;
         font-style: normal;
@@ -36,6 +36,7 @@ p {
 body {
     padding: 50px 10%;
     color: black;
+    border: 5px solid black;
 }
 
 math {
@@ -43,9 +44,12 @@ math {
 }
 
 address {
+
     font-family: "Montserrat",sans-serif;
     font-style: normal;
     text-align: center;
+    border: 5px solid rgb(148, 83, 83);
+    margin: 50px 0px 0px 0px;
 }
 
 nav {
@@ -61,4 +65,32 @@ a {
 
 #range_Input {
     width: 100%;
+}
+
+html, body {
+    background-color: #ffffff;
+}
+.ol-control > * {
+    background-color: #f8f8f8!important;
+    color: #444444!important;
+    border-radius: 0px;
+}
+.ol-attribution a, .gcd-gl-input::placeholder, .search-layer-input-search::placeholder {
+    color: #444444!important;
+}
+.search-layer-input-search {
+    background-color: #f8f8f8!important;
+}
+.ol-control > *:focus, .ol-control >*:hover {
+    background-color: rgba(248, 248, 248, 0.7)!important;
+} 
+.ol-control {
+    background-color: rgba(255,255,255,.4) !important;
+    padding: 2px !important;
+} 
+
+#map {
+    width: 90%;
+    height: 400px;
+    margin: 10px;
 }

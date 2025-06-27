@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+    </style>
+    
+    
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>ЭСН Справочник</h1>
+    </header>
+    
+    <div class="container">
+        <!-- Панель навигации по шифрам ЭСН -->
+        <div id="nav-container">
+            <div class="nav-header">Каталог</div>
+            <div id="nav-list" class="nav-list">
+                <!-- Навигация будет сгенерирована скриптом -->
+            </div>
+        </div>
+        
+        <!-- Основное содержимое -->
+        <div id="content">
+            <!-- Индикатор загрузки -->
+            <div id="loader" class="loader"></div>
+            
+            <!-- Сообщение об ошибке -->
+            <div id="error-message" class="error" style="display:none;"></div>
+            
+            <!-- Контент с карточками ЭСН будет сгенерирован скриптом -->
+        </div>
+    </div>
+    
+    <footer>
+        <p>Система просмотра данных ЭСН Газпром | Разработка Роман Волков</p>
+    </footer>
+
+
+
+    <script src="esn.js"></script>
+</body>
+</html>
